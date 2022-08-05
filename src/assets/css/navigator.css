@@ -1,0 +1,30 @@
+.Navigator {
+    background-color: #1b2038;
+    margin-bottom: 10px;
+    position: fixed;
+    height: 100%;
+    width: 30vh;
+  }
+
+.Navigator h1 {
+    margin-bottom: 10px;
+}
+  
+
+.Navigator li {
+    list-style: none;
+}
+
+
+.Navigator a {
+    color: #F2CF8D;
+    margin: 10px;
+    display: block;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Navigator a:hover {
+    background-color: #3B3F8C;
+}
