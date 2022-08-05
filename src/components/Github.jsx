@@ -80,10 +80,10 @@ export default function Github() {
 
     async function fetchGithubRepositories() {
         console.log("fetch repos")
-        // const result = await axios.get("https://api.github.com/users/luual/repos");
-        // setRepositories(result.data);
-        const result = GetRepositories();
-        setRepositories(result);
+        const result = await axios.get("https://api.github.com/users/luual/repos");
+        setRepositories(result.data);
+        // const result = GetRepositories();
+        // setRepositories(result);
     }
 
     return (
