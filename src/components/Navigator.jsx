@@ -4,7 +4,6 @@ import '../assets/css/navigator.css'
 export default Navigator = () => {
     return (
         <div className='Navigator'>
-            <h1>Navigator</h1>
             <nav>
                 <li>
                     <a href="#Charts" tabIndex="1">Charts</a>
