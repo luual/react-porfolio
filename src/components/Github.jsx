@@ -33,15 +33,14 @@ function GithubRepository(props) {
 
     return (
         <div className="github-repository">
-            <h2>
+            <h2 className="tw-text-xl tw-font-bold tw-underline">
                 <a href={url}>{name}</a>
             </h2>
-            <div>
+            <div style={{height: "40px"}}>
                 {description}
             </div>
-            <div>
+            <div className="github-repository-languages">
                 <div>Languages: {languages.join(',')}</div>
-    
             </div>
         </div>
     )
@@ -51,12 +50,14 @@ function GithubRepositories(props) {
     const { repositories } = props;
     return (
         <div className="github-repositories">
-            {repositories?.map((element) => <GithubRepository
-             key={element.id}
-             name={element.name}
-             url={element.html_url}
-             description={element.description}
-             languagesUrl={element.languages_url} />)}
+            <div className="frame tw-grid tw-grid-cols-3 tw-gap-2">
+                {repositories?.map((element) => <GithubRepository
+                key={element.id}
+                name={element.name}
+                url={element.html_url}
+                description={element.description}
+                languagesUrl={element.languages_url} />)}
+            </div>
         </div>
     )
 }

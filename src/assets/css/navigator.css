@@ -3,14 +3,13 @@
     margin-bottom: 10px;
     position: fixed;
     height: 100%;
-    width: 30vh;
+    width: 20vw;
   }
 
 .Navigator h1 {
     margin-bottom: 10px;
 }
   
-
 .Navigator li {
     list-style: none;
 }

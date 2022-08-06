@@ -7,8 +7,8 @@ export default Navigator = () => {
             <h1>Navigator</h1>
             <nav>
                 <li>
-                    <a href="#Charts">Charts</a>
-                    <a href="#github">Github</a>
+                    <a href="#Charts" tabIndex="1">Charts</a>
+                    <a href="#github" tabIndex="2">Github</a>
                     <a href="#About">About</a>
                     <Link to="/Playground">Playground</Link>
                 </li>
