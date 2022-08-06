@@ -1,6 +1,7 @@
 .Navigator {
     background-color: #1b2038;
     height: 30px;
+    width: 100%;
   }
 
 .Navigator nav {

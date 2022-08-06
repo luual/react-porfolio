@@ -33,7 +33,7 @@ function GithubRepository(props) {
 
     return (
         <div className="github-repository">
-            <h2 className="tw-text-xl tw-font-bold tw-underline">
+            <h2>
                 <a href={url}>{name}</a>
             </h2>
             <div style={{height: "40px"}}>

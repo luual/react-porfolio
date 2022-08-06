@@ -1,15 +1,16 @@
 import './App.css';
-import { Outlet } from 'react-router-dom';
 import Navigator from './components/Navigator';
-import { About } from './routes/About';
-import Charts from './routes/Charts';
+import { About } from './components/About';
 import Github from './components/Github';
+import { Home } from './components/Home';
+import { Experiences } from './components/Experiences';
 
 function App() {
   return (
     <div className="App">
-      <Navigator />
-      <Charts />
+      {/* <Navigator /> */}
+      <Home />
+      <Experiences />
       <Github />
       <About />
     </div>
