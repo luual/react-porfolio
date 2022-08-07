@@ -122,7 +122,8 @@ Menu Options
 }
 
 
-/* Content
+/* 
+Content
  */
 
 .playground-content {
@@ -144,6 +145,7 @@ Menu Options
 .playground-content-widget img {
     margin-top: 5px;
     margin-bottom: 5px;
+    width: 100%;
 }
 
 .playground-content-widget-charts {
